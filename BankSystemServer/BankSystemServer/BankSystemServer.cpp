@@ -8,6 +8,8 @@
 
 #pragma comment(lib,"Ws2_32.lib")
 
+SOCKET Connections[100];
+int Countet = 0;
 
 int main()
 {
@@ -29,10 +31,19 @@ int main()
     listen(sListen, SOMAXCONN);
 
     SOCKET newConnection;
-    newConnection = accept(sListen, (SOCKADDR*)&addr, &size_addr);
+    for (int i = 0; i < 100; i++) {
+        newConnection = accept(sListen, (SOCKADDR*)&addr, &size_addr);
+        char msg[256];
+        if (newConnection == 0) {
+            std::cout << "ERROR. Connection lost" << std::endl;
+        }
+        else {
+            recv(newConnection, msg, sizeof(msg), NULL);
+            std::cout << msg << std::endl;
+        }
 
-    if (newConnection == 0) {
-        std::cout << "ERROR. Connection lost" << std::endl;
+        Connections[i] = newConnection;
+        Countet++;
     }
     
     return 0;
