@@ -5,35 +5,59 @@
 #include <WS2tcpip.h>
 #include <stdio.h>
 #include <vector>
+#include <string>
+#include <sqlite3.h>
 
 #pragma comment(lib,"Ws2_32.lib")
 
+SOCKET Connection;
 
-int main()
-{
-    WSADATA wsaData;
-    WORD DLLVersion = MAKEWORD(2, 1);
-    if (WSAStartup(DLLVersion, &wsaData) != 0) {
-        std::cout << "ERROR" << std::endl;
-        exit(1);
-    }
+void ClientHandler() {
+	int msg_size;
+	while (true) {
+		recv(Connection, (char*)&msg_size, sizeof(int), NULL);
+		char* msg = new char[msg_size + 1];
+		msg[msg_size] = '\0';
+		recv(Connection, msg, msg_size, NULL);
+		std::cout << msg << std::endl;
+		delete[] msg;
+	}
+}
 
-    SOCKADDR_IN addr;
-    int size_addr = sizeof(addr);
-    addr.sin_addr.s_addr = inet_addr("127.0.0.1");
-    addr.sin_port = htons(1111);
-    addr.sin_family = AF_INET;
+int main(int argc, char* argv[]) {
+	setlocale(LC_ALL, "ru");
+	//WSAStartup
+	WSAData wsaData;
+	WORD DLLVersion = MAKEWORD(2, 1);
+	if (WSAStartup(DLLVersion, &wsaData) != 0) {
+		std::cout << "Error" << std::endl;
+		exit(1);
+	}
 
-    SOCKET Connection = socket(AF_INET, SOCK_STREAM, NULL);
-    if (connect(Connection, (SOCKADDR*)&addr, sizeof(addr)) != 0) {
-        std::cout << "ERROR. Connection lost" << std::endl;
-        return 1;
-    }
-    else
-    {
-        char msg[256] = "Hello world!";
-        send(Connection, msg, sizeof(msg), NULL);
-    }
+	SOCKADDR_IN addr;
+	int sizeofaddr = sizeof(addr);
+	addr.sin_addr.s_addr = inet_addr("127.0.0.1");
+	addr.sin_port = htons(1111);
+	addr.sin_family = AF_INET;
 
-    return 0;
+	Connection = socket(AF_INET, SOCK_STREAM, NULL);
+	if (connect(Connection, (SOCKADDR*)&addr, sizeof(addr)) != 0) {
+		std::cout << "Error: failed connect to server.\n";
+		return 1;
+	}
+	std::cout << "Connected!\n";
+
+	CreateThread(NULL, NULL, (LPTHREAD_START_ROUTINE)ClientHandler, NULL, NULL, NULL);
+
+	std::string msg1;
+	while (true) {
+		std::getline(std::cin, msg1);
+		int msg_size = msg1.size();
+		send(Connection, (char*)&msg_size, sizeof(int), NULL);
+		send(Connection, msg1.c_str(), msg_size, NULL);
+		Sleep(10);
+	}
+
+	system("pause");
+	return 0;
 }
