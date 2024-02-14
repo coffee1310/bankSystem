@@ -5,7 +5,8 @@
 #include <WS2tcpip.h>
 #include <stdio.h>
 #include <vector>
-
+#include <sstream>
+#include <sqlite3.h>
 #pragma comment(lib,"Ws2_32.lib")
 
 SOCKET Connections[100];
@@ -14,6 +15,8 @@ int Counter = 0;
 class UserDataBase {
 public:
 	UserDataBase(SOCKET Connection) {
+		this->createDB();
+		this->createTables();
 		std::string msg;
 		int msg_size;
 		char* res;
@@ -24,7 +27,6 @@ public:
 
 		send(Connection, (char*)&msg_size, sizeof(int), NULL);
 		send(Connection, msg.c_str(), msg_size, NULL);
-
 		
 		recv(Connection, (char*)&res_size, sizeof(int), NULL);
 		res = new char[res_size + 1];
@@ -40,10 +42,146 @@ public:
 	}
 
 private:
+	const char* dir = R"(Bank.db)";
 	std::string phone_number;
 	std::string password;
+	std::string FIO;
+	SOCKET Connection;
+	
+	int send_msg(std::string msg) {
+		int msg_size;
+		send(this->Connection, (char*)&msg_size, sizeof(int), NULL);
+		send(this->Connection, msg.c_str(), msg_size, NULL);
+		return 0;
+	}
 
-	bool check_phone_number()
+	char* get_msg() {
+		char* res;
+		int res_size;
+		std::string msg;
+		int msg_size;
+		recv(Connection, (char*)&res_size, sizeof(int), NULL);
+		res = new char[res_size + 1];
+		msg[msg_size] = '\0';
+		recv(Connection, res, res_size, NULL);
+	}
+	
+	int createDB() {
+		sqlite3* DB;
+		int exit = 0;
+		exit = sqlite3_open(this->dir, &DB);
+		sqlite3_close(DB);
+
+		return 0;
+	}
+
+	int createTables() {
+		sqlite3* DB;
+		std::string sql;
+		char* err_msg;
+
+		sql = "CREATE TABLE IF NOT EXISTS Users ( "
+			"ID INTEGER PRIMARY KEY AUTOINCREMENT, "
+			"PHONE_NUMBER VARCHAR(32) NOT NULL, "
+			"PASSWORD VARCHAR(8) NOT NULL, "
+			"FIO TEXT NOT NULL"
+			");";
+
+		try {
+			int exit = 0;
+			exit = sqlite3_open(this->dir, &DB);
+			exit = sqlite3_exec(DB, sql.c_str(), NULL, 0, &err_msg);
+
+			if (exit != SQLITE_OK) {
+				std::cerr << "Database error" << std::endl;
+				sqlite3_free(err_msg);
+			}
+
+			sql = "CREATE TABLE IF NOT EXISTS Checks ("
+				"ID INTEGER PRIMARY KEY AUTOINCREMENT, "
+				"USER_ID INTEGER NOT NULL, "
+				"BALANCE FLOAT NOT NULL, "
+				"FOREIGN KEY (USER_ID) REFERENCES Users (ID)"
+				");";
+			exit = sqlite3_exec(DB, sql.c_str(), NULL, 0, &err_msg);
+
+			if (exit != SQLITE_OK) {
+				std::cerr << "Database error" << std::endl;
+				sqlite3_free(err_msg);
+			}
+
+			sql = "CREATE TABLE IF NOT EXISTS Transactions ("
+				"ID INTEGER PRIMARY KEY AUTOINCREMENT, "
+				"USER_ID INTEGER NOT NULL, "
+				"CHECK_ID INT NOT NULL, "
+				"ACTION VARCHAR(256) NOT NULL, "
+				"TRANSACTION_DATE DATE NOT NULL, "
+				"FOREIGN KEY (USER_ID) REFERENCES Users (ID)"
+				"FOREIGN KEY (CHECK_ID) REFERENCES Checks (ID)"
+				");";
+
+			exit = sqlite3_exec(DB, sql.c_str(), NULL, 0, &err_msg);
+
+			if (exit != SQLITE_OK) {
+				std::cerr << "Database error" << std::endl;
+				sqlite3_free(err_msg);
+			}
+
+			sql = "CREATE TABLE IF NOT EXISTS Credits ("
+				"ID INTEGER PRIMARY KEY, "
+				"USER_ID INTEGER NOT NULL, "
+				"CREDIT_DATE DATE NOT NULL, "
+				"DATE_OF_CREDIT_END DATE NOT NULL, "
+				"TOTAL_AMOUNT FLOAT NOT NULL, "
+				"CURRENT_AMMOUNT FLOAT NOT NULL, "
+				"CREDIT_INTEREST FLOAT NOT NULL, "
+				"MONTHLY_PAYMENT FLOAT NOT NULL, "
+				"FOREIGN KEY (USER_ID) REFERENCES Users (ID)"
+				");";
+
+			exit = sqlite3_exec(DB, sql.c_str(), NULL, 0, &err_msg);
+
+			if (exit != SQLITE_OK) {
+				std::cerr << "Database error" << std::endl;
+				sqlite3_free(err_msg);
+			}
+
+			sqlite3_close(DB);
+			delete err_msg;
+		}
+		catch (const std::exception& e) {
+			std::cerr << e.what();
+		}
+
+		return 0;
+	}
+
+	int addUser() {
+		sqlite3* DB;
+		std::string sql = "INSERT INTO Users (PHONE_NUMBER, PASSWORD, FIO) "
+			"VALUES (" + this->phone_number + ", " + this->password + ", " + this->FIO + ")";
+		char* err_msg;
+
+		sqlite3_open(this->dir, &DB);
+		try
+		{
+			int exit = 0;
+			exit = sqlite3_exec(DB, sql.c_str(), NULL, 0, &err_msg);
+			if (exit != SQLITE_OK) {
+				std::cerr << "Database error" << std::endl;
+				sqlite3_free(err_msg);
+			}
+
+			delete err_msg;
+		}
+		catch (const std::exception& e)
+		{
+			std::cerr << e.what();
+		}
+		return 0;
+	}
+
+	bool checkPhoneNumber()
 	{
 		return false;
 	}
@@ -62,7 +200,6 @@ std::string do_command(std::string msg, SOCKET connection)
 	}
 	return "";
 }
-
 
 void ClientHandler(int index) {
     int msg_size;
@@ -89,7 +226,6 @@ void ClientHandler(int index) {
         delete[] msg;
     }
 }
-
 
 int main(int argc, char* argv[]) {
 	setlocale(LC_ALL, "ru");
@@ -129,7 +265,6 @@ int main(int argc, char* argv[]) {
 			CreateThread(NULL, NULL, (LPTHREAD_START_ROUTINE)ClientHandler, (LPVOID)(i), NULL, NULL);
 		}
 	}
-
 
 	system("pause");
 	return 0;

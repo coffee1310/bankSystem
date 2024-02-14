@@ -1,9 +1,9 @@
 ﻿  BankSystemServer.cpp
-D:\c++\BankSystem\BankSystemServer\BankSystemServer\BankSystemServer.cpp(23,22): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
-D:\c++\BankSystem\BankSystemServer\BankSystemServer\BankSystemServer.cpp(36,22): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
-D:\c++\BankSystem\BankSystemServer\BankSystemServer\BankSystemServer.cpp(75,30): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
-D:\c++\BankSystem\BankSystemServer\BankSystemServer\BankSystemServer.cpp(118,17): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-D:\c++\BankSystem\BankSystemServer\BankSystemServer\BankSystemServer.cpp(124,68): warning C4312: приведение типов: преобразование из "int" в "LPVOID" большего размера
+D:\c++\BankSystem\BankSystemServer\BankSystemServer\BankSystemServer.cpp(26,22): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+D:\c++\BankSystem\BankSystemServer\BankSystemServer\BankSystemServer.cpp(38,22): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+D:\c++\BankSystem\BankSystemServer\BankSystemServer\BankSystemServer.cpp(198,30): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+D:\c++\BankSystem\BankSystemServer\BankSystemServer\BankSystemServer.cpp(240,17): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\c++\BankSystem\BankSystemServer\BankSystemServer\BankSystemServer.cpp(246,68): warning C4312: приведение типов: преобразование из "int" в "LPVOID" большего размера
   BankSystemServer.vcxproj -> D:\c++\BankSystem\BankSystemServer\x64\Debug\BankSystemServer.exe
   "pwsh.exe" не является внутренней или внешней
   командой, исполняемой программой или пакетным файлом.
