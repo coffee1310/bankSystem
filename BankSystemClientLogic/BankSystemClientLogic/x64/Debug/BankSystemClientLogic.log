@@ -1,6 +1,1 @@
-﻿  BankSystemClientLogic.cpp
-D:\c++\BankSystem\BankSystemClientLogic\BankSystemClientLogic\BankSystemClientLogic.cpp(55,16): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-  sqlite3.c
-  BankSystemClientLogic.vcxproj -> D:\c++\BankSystem\BankSystemClientLogic\x64\Debug\BankSystemClientLogic.exe
-  "pwsh.exe" не является внутренней или внешней
-  командой, исполняемой программой или пакетным файлом.
+﻿  BankSystemClientLogic.vcxproj -> D:\c++\BankSystem\BankSystemClientLogic\x64\Debug\BankSystemClientLogic.exe
