@@ -1,0 +1,14 @@
+release/authorization.o
+release/connection.o
+release/graphic.o
+release/histogram.o
+release/main.o
+release/main_menu.o
+release/main_widget.o
+release/mainwindow.o
+release/registration.o
+release/moc_authorization.o
+release/moc_main_menu.o
+release/moc_main_widget.o
+release/moc_mainwindow.o
+release/moc_registration.o

@@ -1,0 +1,1 @@
+D:\c++\bankSystem\BankSystemServer\BankSystemServer\x64\Debug\BankSystemServer.vcxproj.CopyComplete

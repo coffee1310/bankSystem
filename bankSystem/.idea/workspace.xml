@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="12f08038-e317-47c5-825f-7d0aad288a47" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../BankSystemServer/.vs/BankSystemServer/FileContentIndex/a8c8a6be-bf90-4ba9-b75e-85b1075a7e1a.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankSystemServer/.vs/BankSystemServer/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../BankSystemServer/.vs/BankSystemServer/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankSystemServer/.vs/BankSystemServer/v17/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/../BankSystemServer/.vs/BankSystemServer/v17/Browse.VC.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankSystemServer/BankSystemServer/Bank.db" beforeDir="false" afterPath="$PROJECT_DIR$/../BankSystemServer/BankSystemServer/Bank.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankSystemServer/BankSystemServer/BankSystemServer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../BankSystemServer/BankSystemServer/BankSystemServer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankSystemServer/BankSystemServer/x64/Debug/BankSystemServer.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/../BankSystemServer/BankSystemServer/x64/Debug/BankSystemServer.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankSystemServer/BankSystemServer/x64/Debug/BankSystemServer.log" beforeDir="false" afterPath="$PROJECT_DIR$/../BankSystemServer/BankSystemServer/x64/Debug/BankSystemServer.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankSystemServer/BankSystemServer/x64/Debug/BankSystemServer.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../BankSystemServer/BankSystemServer/x64/Debug/BankSystemServer.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankSystemServer/BankSystemServer/x64/Debug/BankSystemServer.tlog/BankSystemServer.write.1u.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../BankSystemServer/BankSystemServer/x64/Debug/BankSystemServer.tlog/BankSystemServer.write.1u.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankSystemServer/BankSystemServer/x64/Debug/BankSystemServer.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../BankSystemServer/BankSystemServer/x64/Debug/BankSystemServer.tlog/link.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankSystemServer/BankSystemServer/x64/Debug/vc143.idb" beforeDir="false" afterPath="$PROJECT_DIR$/../BankSystemServer/BankSystemServer/x64/Debug/vc143.idb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankSystemServer/BankSystemServer/x64/Debug/vc143.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../BankSystemServer/BankSystemServer/x64/Debug/vc143.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankSystemServer/x64/Debug/BankSystemServer.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../BankSystemServer/x64/Debug/BankSystemServer.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankSystemServer/x64/Debug/BankSystemServer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../BankSystemServer/x64/Debug/BankSystemServer.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_menu.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main_menu.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_menu.h" beforeDir="false" afterPath="$PROJECT_DIR$/main_menu.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-bankSystem-Desktop_Qt_6_6_1_shared_MinGW_w64_MINGW64_MSYS2_fe344f-Debug/debug/authorization.o" beforeDir="false" afterPath="$PROJECT_DIR$/../build-bankSystem-Desktop_Qt_6_6_1_shared_MinGW_w64_MINGW64_MSYS2_fe344f-Debug/debug/authorization.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-bankSystem-Desktop_Qt_6_6_1_shared_MinGW_w64_MINGW64_MSYS2_fe344f-Debug/debug/bankSystem.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../build-bankSystem-Desktop_Qt_6_6_1_shared_MinGW_w64_MINGW64_MSYS2_fe344f-Debug/debug/bankSystem.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-bankSystem-Desktop_Qt_6_6_1_shared_MinGW_w64_MINGW64_MSYS2_fe344f-Debug/debug/main.o" beforeDir="false" afterPath="$PROJECT_DIR$/../build-bankSystem-Desktop_Qt_6_6_1_shared_MinGW_w64_MINGW64_MSYS2_fe344f-Debug/debug/main.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-bankSystem-Desktop_Qt_6_6_1_shared_MinGW_w64_MINGW64_MSYS2_fe344f-Debug/debug/main_menu.o" beforeDir="false" afterPath="$PROJECT_DIR$/../build-bankSystem-Desktop_Qt_6_6_1_shared_MinGW_w64_MINGW64_MSYS2_fe344f-Debug/debug/main_menu.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-bankSystem-Desktop_Qt_6_6_1_shared_MinGW_w64_MINGW64_MSYS2_fe344f-Debug/debug/main_widget.o" beforeDir="false" afterPath="$PROJECT_DIR$/../build-bankSystem-Desktop_Qt_6_6_1_shared_MinGW_w64_MINGW64_MSYS2_fe344f-Debug/debug/main_widget.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-bankSystem-Desktop_Qt_6_6_1_shared_MinGW_w64_MINGW64_MSYS2_fe344f-Debug/debug/mainwindow.o" beforeDir="false" afterPath="$PROJECT_DIR$/../build-bankSystem-Desktop_Qt_6_6_1_shared_MinGW_w64_MINGW64_MSYS2_fe344f-Debug/debug/mainwindow.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-bankSystem-Desktop_Qt_6_6_1_shared_MinGW_w64_MINGW64_MSYS2_fe344f-Debug/debug/moc_authorization.o" beforeDir="false" afterPath="$PROJECT_DIR$/../build-bankSystem-Desktop_Qt_6_6_1_shared_MinGW_w64_MINGW64_MSYS2_fe344f-Debug/debug/moc_authorization.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-bankSystem-Desktop_Qt_6_6_1_shared_MinGW_w64_MINGW64_MSYS2_fe344f-Debug/debug/moc_main_menu.o" beforeDir="false" afterPath="$PROJECT_DIR$/../build-bankSystem-Desktop_Qt_6_6_1_shared_MinGW_w64_MINGW64_MSYS2_fe344f-Debug/debug/moc_main_menu.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-bankSystem-Desktop_Qt_6_6_1_shared_MinGW_w64_MINGW64_MSYS2_fe344f-Debug/debug/moc_main_widget.o" beforeDir="false" afterPath="$PROJECT_DIR$/../build-bankSystem-Desktop_Qt_6_6_1_shared_MinGW_w64_MINGW64_MSYS2_fe344f-Debug/debug/moc_main_widget.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-bankSystem-Desktop_Qt_6_6_1_shared_MinGW_w64_MINGW64_MSYS2_fe344f-Debug/debug/moc_mainwindow.o" beforeDir="false" afterPath="$PROJECT_DIR$/../build-bankSystem-Desktop_Qt_6_6_1_shared_MinGW_w64_MINGW64_MSYS2_fe344f-Debug/debug/moc_mainwindow.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-bankSystem-Desktop_Qt_6_6_1_shared_MinGW_w64_MINGW64_MSYS2_fe344f-Debug/debug/moc_registration.o" beforeDir="false" afterPath="$PROJECT_DIR$/../build-bankSystem-Desktop_Qt_6_6_1_shared_MinGW_w64_MINGW64_MSYS2_fe344f-Debug/debug/moc_registration.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-bankSystem-Desktop_Qt_6_6_1_shared_MinGW_w64_MINGW64_MSYS2_fe344f-Debug/debug/registration.o" beforeDir="false" afterPath="$PROJECT_DIR$/../build-bankSystem-Desktop_Qt_6_6_1_shared_MinGW_w64_MINGW64_MSYS2_fe344f-Debug/debug/registration.o" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2mLnl5lg7L9z2Gu6Fd6VUDgjvxY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/c++/bankSystem/BankSystemServer",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="12f08038-e317-47c5-825f-7d0aad288a47" name="Changes" comment="" />
+      <created>1726864871661</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726864871661</updated>
+      <workItem from="1726864872737" duration="30000" />
+      <workItem from="1726959061756" duration="17000" />
+      <workItem from="1731537485177" duration="9000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

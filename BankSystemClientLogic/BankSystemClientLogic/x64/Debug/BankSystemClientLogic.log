@@ -1,0 +1,10 @@
+﻿  BankSystemClientLogic.cpp
+D:\c++\bankSystem\BankSystemClientLogic\BankSystemClientLogic\BankSystemClientLogic.cpp(19,21): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+D:\c++\bankSystem\BankSystemClientLogic\BankSystemClientLogic\BankSystemClientLogic.cpp(18,6): warning C4101: res_size: неиспользованная локальная переменная
+D:\c++\bankSystem\BankSystemClientLogic\BankSystemClientLogic\BankSystemClientLogic.cpp(17,8): warning C4101: res: неиспользованная локальная переменная
+D:\c++\bankSystem\BankSystemClientLogic\BankSystemClientLogic\BankSystemClientLogic.cpp(127,2): warning C4551: в вызове функции отсутствует список аргументов
+D:\c++\bankSystem\BankSystemClientLogic\BankSystemClientLogic\BankSystemClientLogic.cpp(153,16): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\c++\bankSystem\BankSystemClientLogic\BankSystemClientLogic\BankSystemClientLogic.cpp(100): warning C4715: user_authorization: значение возвращается не при всех путях выполнения
+  BankSystemClientLogic.vcxproj -> D:\c++\bankSystem\BankSystemClientLogic\x64\Debug\BankSystemClientLogic.exe
+  "pwsh.exe" не является внутренней или внешней
+  командой, исполняемой программой или пакетным файлом.

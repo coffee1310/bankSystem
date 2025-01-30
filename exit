@@ -1,0 +1,65 @@
+[33mcommit 6d17f9ff0ae263ec904b17fa1eb540b06e62f400[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Coffee <coffee13102006@yandex.ru>
+Date:   Mon Apr 15 21:55:31 2024 +0300
+
+    Now apllication can transfer money between users by check and by phone_number. Application also adds your transactions in data base.
+
+[33mcommit c9b2fe371239b2b2f596242426e20dfb440b9dce[m
+Author: Coffee <coffee13102006@yandex.ru>
+Date:   Sun Mar 24 18:06:09 2024 +0300
+
+    Added new static methods to the UserDataBaseHandler class. Also performed code clean up.
+
+[33mcommit bc0747edfa73219da698c724ca32362fd30d6299[m
+Author: Coffee <coffee13102006@yandex.ru>
+Date:   Fri Mar 22 20:28:54 2024 +0300
+
+    In this version i added a function that get user checks and send them. I also added new class. In this class i'll move all the functions those work with user data base.
+
+[33mcommit 00d0a21c4b041d1c388e8b87435078ddfcdcbe95[m
+Author: Coffee <coffee13102006@yandex.ru>
+Date:   Tue Mar 19 21:33:20 2024 +0300
+
+    it's an application that works with bank system between user and server. This application uses a database, network, cipher methods and etc
+
+[33mcommit 9145b7082c8a7d3e9ab8aec4d336bfb74ab33b81[m
+Author: Coffee <coffee13102006@yandex.ru>
+Date:   Tue Mar 19 21:27:08 2024 +0300
+
+    it's an application that works with bank system between user and server. This application uses a database, network, cipher methods and etc
+
+[33mcommit 7251f707bccf1f987304289c25dc8619c4f46e50[m
+Author: Coffee <coffee13102006@yandex.ru>
+Date:   Tue Mar 19 20:40:45 2024 +0300
+
+    it's an application that works with bank system between user and server. This application uses a database, network, cipher methods and etc
+
+[33mcommit 77cd6b56a8b158845cc6a8b9de0e873029f28ae0[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Coffee <Coffee13102006@yandex.ru>
+Date:   Fri Feb 16 23:14:29 2024 +0300
+
+    Now i added a new functions. I clear my code. I add a password hashing.
+
+[33mcommit ad36004e71400223f4ac6094a81107d217f7ff96[m
+Author: Coffee <Coffee13102006@yandex.ru>
+Date:   Wed Feb 14 20:36:37 2024 +0300
+
+    Now i did a database and not working system of user creating
+
+[33mcommit 742509da36532134301dd3906594daf8c5545f35[m
+Author: Coffee <Coffee13102006@yandex.ru>
+Date:   Thu Feb 8 16:51:21 2024 +0300
+
+    to laptop
+
+[33mcommit 5db0eb04e41c7d8c262e6ed9580211dc2c389ee6[m
+Author: Coffee <Coffee13102006@yandex.ru>
+Date:   Mon Jan 29 19:27:01 2024 +0300
+
+    Just commit for other devices
+
+[33mcommit b56e6bb225d22e989e5610c7374c3019b3c3e48e[m
+Author: Coffee <Coffee13102006@yandex.ru>
+Date:   Sun Jan 28 18:40:42 2024 +0300
+
+    This apllication will make connection between server and client. Client can create card, withdraw money, put money and transfer money.

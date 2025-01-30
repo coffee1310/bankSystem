@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2ada5dd2-0905-4792-88b5-0767c84d85ec" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/BankSystemServer/BankSystemServer.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BankSystemServer/CMakeFiles/BankSystemServer.dir/BankSystemServer/BankSystemServer.cpp.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BankSystemServer/CMakeFiles/BankSystemServer.dir/BankSystemServer/sqlite3.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BankSystemServer/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BankSystemServer/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-24d3e91bc4d711b8f3de.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/.vs/.vs/BankSystemServer/FileContentIndex/193eb61c-34c8-4e50-b165-1727ca38c7cc.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/.vs/.vs/BankSystemServer/FileContentIndex/27f36125-0c85-4f87-8cb4-b7c0d3242a42.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/.vs/.vs/BankSystemServer/FileContentIndex/870acb2c-af96-418e-a011-6e4a21715768.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/.vs/.vs/BankSystemServer/FileContentIndex/9a4bcd6f-70de-4a2c-b602-7f592836bb8d.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/.vs/.vs/BankSystemServer/FileContentIndex/a21c09a7-e7c4-45b9-8ddb-3df0e3dbb0ae.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/.vs/.vs/BankSystemServer/v17/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/.vs/.vs/BankSystemServer/v17/Browse.VC.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/.vs/.vs/BankSystemServer/v17/Browse.VC.db-shm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/.vs/.vs/BankSystemServer/v17/Browse.VC.db-wal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/.vs/.vs/BankSystemServer/v17/Browse.VC.opendb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/.vs/.vs/BankSystemServer/v17/Solution.VC.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/.vs/.vs/BankSystemServer/v17/ipch/AutoPCH/18847a6484fc2e00/BANKSYSTEMCLIENTLOGIC.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/.vs/.vs/BankSystemServer/v17/ipch/AutoPCH/2d9fa992b8c42961/DELETE_SCALAR.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/.vs/.vs/BankSystemServer/v17/ipch/AutoPCH/33f31f94a15d51b3/THROW_BAD_ALLOC.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/.vs/.vs/BankSystemServer/v17/ipch/AutoPCH/516a279352f3b8f5/BANKSYSTEMSERVER.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/.vs/.vs/BankSystemServer/v17/ipch/AutoPCH/56f7670f57952356/THROW_BAD_ALLOC.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/.vs/.vs/BankSystemServer/v17/ipch/AutoPCH/6bc5b55c345a5421/LEGACY_MD5.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/.vs/.vs/BankSystemServer/v17/ipch/AutoPCH/75b0507aa458cd23/LEGACY_MD5.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/.vs/.vs/BankSystemServer/v17/ipch/AutoPCH/78939c14901e95d1/MEM.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/.vs/.vs/BankSystemServer/v17/ipch/AutoPCH/84ff583419d46f2d/DELETE_SCALAR.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/.vs/.vs/BankSystemServer/v17/ipch/AutoPCH/d692354aa646a2c1/DIGEST.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/.vs/.vs/BankSystemServer/v17/ipch/AutoPCH/f01c0b109ad53608/DELETE_SCALAR.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/.vs/.vs/BankSystemServer/v17/ipch/AutoPCH/f9511c6455087467/DIGEST.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/.vs/BankSystemServer/FileContentIndex/01680c20-dcaa-4708-890a-913b01fac563.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/.vs/BankSystemServer/FileContentIndex/133734cc-062f-47fd-8106-3985de7d1758.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/.vs/BankSystemServer/FileContentIndex/7ca32382-fbc5-40d8-ab89-ebf6aad54f47.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/.vs/BankSystemServer/FileContentIndex/d9aaecd8-c086-42f5-b8a7-af4f8afb66ce.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/.vs/BankSystemServer/FileContentIndex/fdc503ba-1558-40f2-bee3-72057c826759.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/.vs/BankSystemServer/v17/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/.vs/BankSystemServer/v17/Browse.VC.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/.vs/BankSystemServer/v17/Solution.VC.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/.vs/BankSystemServer/v17/ipch/AutoPCH/18847a6484fc2e00/BANKSYSTEMCLIENTLOGIC.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/.vs/BankSystemServer/v17/ipch/AutoPCH/2d9fa992b8c42961/DELETE_SCALAR.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/.vs/BankSystemServer/v17/ipch/AutoPCH/2f1b1b43b7d2ee8d/VCTMP13488_163961.BANKSYSTEMSERVER.00000000.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/.vs/BankSystemServer/v17/ipch/AutoPCH/33f31f94a15d51b3/THROW_BAD_ALLOC.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/.vs/BankSystemServer/v17/ipch/AutoPCH/516a279352f3b8f5/BANKSYSTEMSERVER.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/.vs/BankSystemServer/v17/ipch/AutoPCH/56f7670f57952356/THROW_BAD_ALLOC.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/.vs/BankSystemServer/v17/ipch/AutoPCH/6bc5b55c345a5421/LEGACY_MD5.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/.vs/BankSystemServer/v17/ipch/AutoPCH/75b0507aa458cd23/LEGACY_MD5.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/.vs/BankSystemServer/v17/ipch/AutoPCH/78939c14901e95d1/MEM.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/.vs/BankSystemServer/v17/ipch/AutoPCH/84ff583419d46f2d/DELETE_SCALAR.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/.vs/BankSystemServer/v17/ipch/AutoPCH/93a46058d12afcf/LEGACY_MD5.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/.vs/BankSystemServer/v17/ipch/AutoPCH/abdbaf6fb08c571b/DIGEST.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/.vs/BankSystemServer/v17/ipch/AutoPCH/c4c8116a3dba4063/VCTMP10940_735756.BANKSYSTEMSERVER.00000000.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/.vs/BankSystemServer/v17/ipch/AutoPCH/d692354aa646a2c1/DIGEST.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/.vs/BankSystemServer/v17/ipch/AutoPCH/db71222332d5508e/DIGEST.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/.vs/BankSystemServer/v17/ipch/AutoPCH/f01c0b109ad53608/DELETE_SCALAR.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/.vs/BankSystemServer/v17/ipch/AutoPCH/f9511c6455087467/DIGEST.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/BankSystemServer.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/BankSystemServer/Bank.db" beforeDir="false" afterPath="$PROJECT_DIR$/BankSystemServer/BankSystemServer/Bank.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/BankSystemServer/BankSystemServer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/BankSystemServer/BankSystemServer/BankSystemServer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BankSystemServer/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/build/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/build/CMakeFiles/3.28.1/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/BankSystemServer/CMakeFiles/3.28.1/CMakeCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/build/CMakeFiles/3.28.1/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/BankSystemServer/CMakeFiles/3.28.1/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/build/CMakeFiles/3.28.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/BankSystemServer/CMakeFiles/3.28.1/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/build/CMakeFiles/3.28.1/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/BankSystemServer/CMakeFiles/3.28.1/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/build/CMakeFiles/3.28.1/CMakeRCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/BankSystemServer/CMakeFiles/3.28.1/CMakeRCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/build/CMakeFiles/3.28.1/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/BankSystemServer/CMakeFiles/3.28.1/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/build/CMakeFiles/3.28.1/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" afterPath="$PROJECT_DIR$/BankSystemServer/CMakeFiles/3.28.1/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/build/CMakeFiles/3.28.1/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/BankSystemServer/CMakeFiles/3.28.1/CompilerIdC/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/build/CMakeFiles/3.28.1/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/BankSystemServer/CMakeFiles/3.28.1/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/build/CMakeFiles/3.28.1/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/BankSystemServer/CMakeFiles/3.28.1/CompilerIdCXX/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/build/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/BankSystemServer/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/build/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/build/CMakeFiles/cmake.check_cache" beforeDir="false" afterPath="$PROJECT_DIR$/BankSystemServer/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/build/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/BankSystemServer/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/build/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/build/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/cmake-build-debug/.cmake/api/v1/reply/cache-v2-b13bf2b1609772122ca2.json" beforeDir="false" afterPath="$PROJECT_DIR$/BankSystemServer/cmake-build-debug/.cmake/api/v1/reply/cache-v2-bae7c8f4d5b1617a1906.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-2ecd2ce57e3fce4c8f7e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-305d6b32c282d9fe5d9a.json" beforeDir="false" afterPath="$PROJECT_DIR$/BankSystemServer/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-00a7aecf170efdd4d272.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/cmake-build-debug/.cmake/api/v1/reply/index-2024-11-15T20-54-29-0157.json" beforeDir="false" afterPath="$PROJECT_DIR$/BankSystemServer/cmake-build-debug/.cmake/api/v1/reply/index-2024-11-26T21-02-40-0911.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/cmake-build-debug/.cmake/api/v1/reply/target-BankSystemServer-Debug-05cdc254a8c473f2fec5.json" beforeDir="false" afterPath="$PROJECT_DIR$/BankSystemServer/cmake-build-debug/.cmake/api/v1/reply/target-BankSystemServer-Debug-a17e09d65e9fdba0eee2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/BankSystemServer/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/BankSystemServer/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/cmake-build-debug/BankSystemServer.exe" beforeDir="false" afterPath="$PROJECT_DIR$/BankSystemServer/cmake-build-debug/BankSystemServer.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BankSystemServer/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/cmake-build-debug/CMakeFiles/3.28.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/BankSystemServer/cmake-build-debug/CMakeFiles/3.28.1/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/cmake-build-debug/CMakeFiles/3.28.1/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/BankSystemServer/cmake-build-debug/CMakeFiles/3.28.1/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/cmake-build-debug/CMakeFiles/3.28.1/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/BankSystemServer/cmake-build-debug/CMakeFiles/3.28.1/CompilerIdC/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/cmake-build-debug/CMakeFiles/3.28.1/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/BankSystemServer/cmake-build-debug/CMakeFiles/3.28.1/CompilerIdCXX/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/cmake-build-debug/CMakeFiles/3.29.6/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/BankSystemServer/cmake-build-debug/CMakeFiles/3.29.6/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/cmake-build-debug/CMakeFiles/3.29.6/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/BankSystemServer/cmake-build-debug/CMakeFiles/3.29.6/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/BankSystemServer/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdC/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/BankSystemServer/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdCXX/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/cmake-build-debug/CMakeFiles/BankSystemServer.dir/BankSystemServer/BankSystemServer.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/BankSystemServer/cmake-build-debug/CMakeFiles/BankSystemServer.dir/BankSystemServer/BankSystemServer.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/BankSystemServer/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BankSystemServer/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/BankSystemServer/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/BankSystemServer/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/BankSystemServer/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankSystemServer/x64/Debug/Bank.db" beforeDir="false" afterPath="$PROJECT_DIR$/BankSystemServer/cmake-build-debug/Bank.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankSystem/histogram.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/bankSystem/histogram.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankSystem/histogram.h" beforeDir="false" afterPath="$PROJECT_DIR$/bankSystem/histogram.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankSystem/main_menu.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/bankSystem/main_menu.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankSystem/main_menu.h" beforeDir="false" afterPath="$PROJECT_DIR$/bankSystem/main_menu.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-bankSystem-Desktop_Qt_6_6_1_shared_MinGW_w64_MINGW64_MSYS2_fe344f-Debug/debug/bankSystem.exe" beforeDir="false" afterPath="$PROJECT_DIR$/build-bankSystem-Desktop_Qt_6_6_1_shared_MinGW_w64_MINGW64_MSYS2_fe344f-Debug/debug/bankSystem.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-bankSystem-Desktop_Qt_6_6_1_shared_MinGW_w64_MINGW64_MSYS2_fe344f-Debug/debug/histogram.o" beforeDir="false" afterPath="$PROJECT_DIR$/build-bankSystem-Desktop_Qt_6_6_1_shared_MinGW_w64_MINGW64_MSYS2_fe344f-Debug/debug/histogram.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-bankSystem-Desktop_Qt_6_6_1_shared_MinGW_w64_MINGW64_MSYS2_fe344f-Debug/debug/main_menu.o" beforeDir="false" afterPath="$PROJECT_DIR$/build-bankSystem-Desktop_Qt_6_6_1_shared_MinGW_w64_MINGW64_MSYS2_fe344f-Debug/debug/main_menu.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-bankSystem-Desktop_Qt_6_6_1_shared_MinGW_w64_MINGW64_MSYS2_fe344f-Debug/debug/main_widget.o" beforeDir="false" afterPath="$PROJECT_DIR$/build-bankSystem-Desktop_Qt_6_6_1_shared_MinGW_w64_MINGW64_MSYS2_fe344f-Debug/debug/main_widget.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-bankSystem-Desktop_Qt_6_6_1_shared_MinGW_w64_MINGW64_MSYS2_fe344f-Debug/debug/moc_main_menu.o" beforeDir="false" afterPath="$PROJECT_DIR$/build-bankSystem-Desktop_Qt_6_6_1_shared_MinGW_w64_MINGW64_MSYS2_fe344f-Debug/debug/moc_main_menu.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-bankSystem-Desktop_Qt_6_6_1_shared_MinGW_w64_MINGW64_MSYS2_fe344f-Debug/user.ini" beforeDir="false" afterPath="$PROJECT_DIR$/build-bankSystem-Desktop_Qt_6_6_1_shared_MinGW_w64_MINGW64_MSYS2_fe344f-Debug/user.ini" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2mDV6dOIpSkg0gKCh5tnRQDrAPZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/user/CLionProjects/Lesson2",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2ada5dd2-0905-4792-88b5-0767c84d85ec" name="Changes" comment="" />
+      <created>1726610960979</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726610960979</updated>
+      <workItem from="1726610962007" duration="31000" />
+      <workItem from="1737583727948" duration="23000" />
+      <workItem from="1738277064000" duration="71000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
